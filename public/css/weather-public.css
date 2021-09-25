@@ -1,0 +1,110 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+ 
+ .proba {
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    background-image: url('../../public/img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    font-family: 'Oswald' !important;
+    padding: 1.5em;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.proba .wrapic .text-danger{
+    background: pink;
+    padding: 5px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.proba .wrapic .temp,
+.proba .wrapic .admin-temp {
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.proba .wrapic .front-side .temp::after,
+.proba .wrapic .admin-side .admin-temp::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height:2px;
+    background: rgb(240, 240, 240);
+    left: 0;
+    bottom: -10px;
+}
+
+.proba h5 {
+    font-size: 22px;
+    font-weight: 300 !important;
+    color: #fff !important;
+}
+
+.proba p {
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 5px;;
+}
+ 
+.proba form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;   
+}
+
+.proba .wrapic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    /*margin-top: 100px;*/
+    
+}
+
+.proba .button-front {
+    background: #434E57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.proba .form-holder #city {
+    color: grey;
+}
+
+.proba form #city, .button-front {
+    width: 250px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+    
+}
+
