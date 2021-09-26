@@ -119,10 +119,10 @@ class Weather_Public {
 			$tempMin = round($weather['main']['temp_min'] - 273.15);
 
 			echo '<div class="admin-side"">'; 
-            echo '<h5>' . $city . '</h5>';
-            echo '<h1 class="admin-temp">' . $celsius . '&deg;C' . '</h1>';
-            echo '<p>' . 'Max temp:' . $tempMax . '&deg;C' . '</p>';
-            echo '<p>' . 'Min temp:' . $tempMin . '&deg;C' . '</p>';
+		        echo '<h5>' . $city . '</h5>';
+		        echo '<h1 class="admin-temp">' . $celsius . '&deg;C' . '</h1>';
+		        echo '<p>' . 'Max temp:' . $tempMax . '&deg;C' . '</p>';
+		        echo '<p>' . 'Min temp:' . $tempMin . '&deg;C' . '</p>';
 			echo '</div>';		
 			
 		}
