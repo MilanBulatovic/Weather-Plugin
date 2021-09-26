@@ -102,6 +102,8 @@ class Weather_Public {
 
 	//prikazati podatke sa admin dijela - ako je grad ukucan -> napravi upit na openweather -> prikazati na front end
 	//napraviti input polje kada se ukuca grad -> GET request from OpenWeatherAPI -> podaci
+	
+	//Shortcode funkcija
 	public function weather_shortcode(){
 
 		require_once 'partials/weather-public-display.php';
