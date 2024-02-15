@@ -31,7 +31,7 @@
     if(isset($_GET['submit']) ) {
     
         $cityFront =  $_GET['city'];
-        $apiKey = '383d6f303c387c20881c7748c17335bc';
+        $apiKey = '';
         $error = 'Molimo vas unesite grad!';
      
         if($cityFront) {
