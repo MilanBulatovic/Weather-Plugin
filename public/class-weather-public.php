@@ -109,7 +109,7 @@ class Weather_Public {
 		require_once 'partials/weather-public-display.php';
 
 		$city = get_option( 'test_city' );
-		$apiKey = '383d6f303c387c20881c7748c17335bc';
+		$apiKey = '';
 		
 
 		if($city) {
